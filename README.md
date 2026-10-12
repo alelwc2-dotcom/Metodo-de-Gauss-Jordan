@@ -32,3 +32,13 @@ El proyecto está desarrollado en Java.
 Desde la carpeta principal del proyecto, compilar todos los archivos fuente:
 ```bash
 javac src/Defmatrizz.java src/Gauss.java src/GaussJordan.java src/Lanzador_gauss.java
+java -cp src Lanzador_gaussjava -cp src Lanzador_gauss[ 3.0,  -0.1,  -0.2,   7.85 ]
+[ 0.1,   7.0,  -0.3, -19.30 ]
+[ 0.3,  -0.2,  10.0,  71.40 ]Matriz reducida:
+   1.00000    0.00000    0.00000    3.00000 
+   0.00000    1.00000    0.00000   -2.50000 
+   0.00000    0.00000    1.00000    7.00000 
+Soluciones del sistema:
+x1 = 3.000000
+x2 = -2.500000
+x3 = 7.000000
